@@ -21,20 +21,23 @@
 <div class="ways" style="margin-top:12px">
 <div class="way"><b>Telefon</b><span><a href="tel:+491719670663">0171 9670663</a></span></div>
 <div class="way"><b>WhatsApp</b><span><a href="https://wa.me/491719670663">0171 9670663</a> · Fotos und Pläne direkt schicken</span></div>
-<div class="way"><b>E-Mail</b><span><a href="mailto:info@loechli-montage.de">info@loechli-montage.de</a></span></div>
+<div class="way"><b>E-Mail</b><span>info@loechli-montage.de</span></div>
 <div class="way"><b>Anschrift</b><span>Andreas Löchli<br>Ballstadter Straße 27b<br>91611 Lehrberg</span></div>
 <div class="way"><b>Einsatzgebiet</b><span>Süddeutschland</span></div></div></div>
-<form class="inq" id="anfrage" data-mail="info@loechli-montage.de">
+<form class="inq" action="https://formsubmit.co/info@loechli-montage.de" method="POST" enctype="multipart/form-data">
+<input type="hidden" name="_subject" value="Neue Anfrage über loechli-montage.de">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_next" value="https://www.loechli-montage.de/danke.html">
 <h3>Projekt anfragen</h3>
 <div class="row2"><label for="f-art">Ich bin<select id="f-art" name="art"><option selected>Bauträger</option><option>Generalunternehmer</option><option>Fensterbauer</option><option>Hausverwaltung</option><option>Gewerbe / Industrie</option><option>Privatkunde</option><option>Bewerber</option></select></label><label for="f-firma">Firma<input id="f-firma" name="firma" autocomplete="organization"></label></div>
 <div class="row2"><label for="f-name">Ansprechpartner<input id="f-name" name="name" required autocomplete="name"></label><label for="f-tel">Telefon<input id="f-tel" name="telefon" type="tel" autocomplete="tel"></label></div>
 <label for="f-mail">E-Mail<input id="f-mail" name="email" type="email" required autocomplete="email"></label>
 <div class="row3"><label for="f-ort">Ort des Objekts<input id="f-ort" name="ort" placeholder="z. B. Ansbach"></label><label for="f-anz">Elemente ca.<input id="f-anz" name="elemente" inputmode="numeric" placeholder="z. B. 40"></label><label for="f-zeit">Montagezeitraum<input id="f-zeit" name="zeitraum" placeholder="z. B. KW 12–14"></label></div>
 <label for="f-msg">Worum geht es?<textarea id="f-msg" name="nachricht" placeholder="z. B. Mehrfamilienhaus, 40 Fenster, 12 Brandschutztüren T30, Montage in zwei Abschnitten"></textarea></label>
-<p class="muted" style="margin:0">Pläne oder Elementliste? Hängen Sie sie einfach in der Mail an, die sich gleich öffnet, oder schicken Sie sie per WhatsApp.</p>
-<button class="btn btn-solid" type="submit">Anfrage per E-Mail senden</button>
-<p class="ok" hidden>Ihr Mailprogramm sollte sich jetzt mit der fertigen Anfrage geöffnet haben – bitte dort auf Senden tippen. Öffnet sich nichts? Schreiben Sie direkt an <a href="mailto:info@loechli-montage.de">info@loechli-montage.de</a>.</p>
-<noscript><p>Bitte schreiben Sie uns direkt an <a href="mailto:info@loechli-montage.de">info@loechli-montage.de</a>.</p></noscript>
+<label for="f-file">Elementliste oder Pläne (optional, PDF oder Foto, max. 10 MB)<input id="f-file" name="datei" type="file" accept=".pdf,.jpg,.jpeg,.png,.xlsx,.xls"></label>
+<label class="hp" for="f-web">Website<input id="f-web" name="_honey" tabindex="-1" autocomplete="off"></label>
+<label class="check" for="f-ds"><input id="f-ds" name="datenschutz" type="checkbox" required><span>Ich bin einverstanden, dass meine Angaben zur Bearbeitung der Anfrage gespeichert werden. Mehr dazu in der <a href="datenschutz.html">Datenschutzerklärung</a>.</span></label>
+<button class="btn btn-solid" type="submit">Anfrage senden</button>
 </form></div></section></main><footer class="site">
   <div class="wrap">
     <div class="foot">
